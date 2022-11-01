@@ -1,0 +1,10 @@
+// reset
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  // line-height: 2.3rem;
+}

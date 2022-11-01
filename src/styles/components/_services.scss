@@ -1,0 +1,46 @@
+.services{
+    background-color: $green-header;
+    width: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: $fontfamily-default;
+    .up{
+        transform: rotate(180deg);
+    }
+    &-dash{
+        background-color: $blue-bright;
+        width: 100px;
+        height: 5px;
+        // margin: 2rem 0 0 0;
+    }
+    &-title{
+        font-size: 5rem;
+    }
+    &-content{
+        display: flex;
+        flex-direction: column;
+        &-row{
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            padding: 2rem;
+            &-text{
+                padding: 0 5rem;
+                &-title{
+                    font-size: 2rem;
+                    margin-bottom: 1rem;
+                    color: $blue-navy;
+                    font-weight: 600;
+                }
+                &-desc{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}
+
+.services-content-row:nth-child(even){
+    flex-direction: row-reverse;
+}

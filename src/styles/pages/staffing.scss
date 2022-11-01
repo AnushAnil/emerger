@@ -1,0 +1,57 @@
+.staffing{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: $fontfamily-default;
+    &-dash{
+        width: 100px;
+        height: 5px;
+        background-color: $blue-bright;
+        margin-bottom: .4rem;
+    }
+    &-title{
+        h1{
+        font-size: 5rem;
+        }
+    }
+    &-content{
+        .up{
+            transform: rotate(180deg);
+        }
+        h1{
+            text-align: center;
+        }
+        background-color: #E8B4B8;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &-title{
+            font-size: 1rem;
+            margin-bottom: 1.2rem;
+        }
+        &-inner{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            &-card{
+                background-color: white;
+                width: 600px;
+                display: flex;
+                margin: 2rem 3rem;
+                border-radius: 1rem;
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                padding: 3.5rem;
+                &-content{
+                    &-icon{
+                        font-size: 3rem;
+                    }
+                    &-text{
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+    }
+}

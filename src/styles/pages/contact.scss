@@ -1,0 +1,32 @@
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: $fontfamily-default;
+    &-title{
+        font-size: 7rem;
+    }
+    &-links{
+        display: flex;
+        // border: 1px solid black;
+        gap: 4rem;
+        &-link{
+            display: flex;
+            justify-content: center;
+            line-height: 3.5rem;
+            &-icon{
+                svg{
+                    font-size: 4rem;
+                }
+                padding: 0 1rem;
+            }
+            &-text{
+                font-size: 2rem;
+            }
+        }
+    }
+    &-or{   
+        margin-top: 1rem;
+        font-size: 4rem;
+    }
+}

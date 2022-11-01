@@ -1,0 +1,15 @@
+.hero{
+    padding: 2rem;
+    // background-color: rgb(172, 172, 255);
+    font-family: $fontfamily-default;
+    width: 100vw;
+    &-content{
+        &-title{
+            font-size: 8rem;
+            color: $blue-navy;
+            p{
+                font-size: 2rem;
+            }
+        }
+    }
+}

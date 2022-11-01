@@ -1,5 +1,17 @@
-import React from "react"
+import * as React from "react"
+import ContactUs from "../components/ContactUs"
+import Layout from "../components/layout"
+import Customers from "../components/Customers"
+import Services from "../components/Services"
+import Hero from "../components/Hero"
 
-export default function Home() {
-  return <div>Hello world!</div>
+const BlogIndex = () => {
+  return <Layout>
+    <Hero/>
+    <Services/>
+    <Customers/>
+    <ContactUs/>
+  </Layout>
 }
+
+export default BlogIndex

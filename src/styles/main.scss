@@ -1,0 +1,24 @@
+@import "./global/typography";
+// Abstract
+@import "./abstract/variables";
+@import "./abstract/mixins";
+
+// Layout
+@import "./layout/layout";
+@import "./layout/header/header.scss";
+@import "./layout/footer/footer";
+// global
+@import "./global/reset";
+@import "./global/typography";
+
+
+// components
+@import "./components/hero";
+@import "./components/contactUs";
+@import "./components/services";
+@import "./components/customers";
+
+// Pages
+@import "./pages/ourWork.scss";
+@import "./pages/staffing.scss";
+@import "./pages/contact.scss";
